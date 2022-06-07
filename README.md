@@ -8,3 +8,5 @@ We will deploy:
 * ALB Target Group and Listeners for HTTP and HTTPS protocols
 * Register DNS Records in Route 53
 * Create an SSL certificate using AWS Certificate Manager
+
+Blog --> https://gmusumeci.medium.com/how-to-deploy-ec2-instances-with-an-internal-load-balancer-and-acm-ssl-certificate-in-aws-with-c605e333cd70
