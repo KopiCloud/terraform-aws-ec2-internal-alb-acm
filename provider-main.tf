@@ -10,13 +10,6 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 3.0"
     }
-
-    # Let's Encrypt Provider
-    acme = {
-      source  = "vancluever/acme"
-      version = "~> 2.9"
-    }
-  }
 }
 
 # AWS Provider Credentials
