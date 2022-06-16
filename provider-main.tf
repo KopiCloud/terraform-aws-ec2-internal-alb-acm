@@ -18,8 +18,3 @@ provider "aws" {
   secret_key = var.aws_secret_key
   region     = var.aws_region
 }
-
-# Let's Encrypt Provider Credentials
-provider "acme" {
-  server_url = var.let_encrypt_url
-}
