@@ -4,12 +4,11 @@
 
 terraform {
   required_providers {
-
-    # AWS Provider
     aws = {
       source  = "hashicorp/aws"
       version = "~> 3.0"
     }
+  }
 }
 
 # AWS Provider Credentials
